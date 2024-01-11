@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Cuisine</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap-grid.min.css"
+        integrity="sha512-ZuRTqfQ3jNAKvJskDAU/hxbX1w25g41bANOVd1Co6GahIe2XjM6uVZ9dh0Nt3KFCOA061amfF2VeL60aJXdwwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif; -->
+
+
+    <!-- boostap navber js pupper -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- header starts here -->
+        <header>
+
+            <nav class="navbar navbar-inverse navbar-fixed-top navberCostomCss">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="headerIconsWrper">
+                            <a class="navbar-brand" href="#">
+                                <i class="fa-solid fa-utensils headIcons"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="active"><a class="text-light" href="#">Home</a></li>
+                            <li><a class="text-light" href="#">About Us</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Food Menu <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="text-light" href="#">Rice</a></li>
+                                    <li><a class="text-light" href="#">Biriany</a></li>
+                                    <li><a class="text-light" href="#">Cahchi</a></li>
+                                    <li><a class="text-light" href="#">Kala Bona</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+
+        </header>
+        <!-- header ends here -->
+        <main>
+            <!-- banner section starts here -->
+            <section id="banner-section">
+                <!-- The video -->
+                <video autoplay muted loop id="myVideo">
+                    <source src="./vdo for project/shopping.mp4(Original)" type="video/mp4">
+                </video>
+
+                <!-- Optional: some overlay text to describe the video -->
+                <div class="banner-contents">
+                    <h1>American Cuisine Restaurant</h1>
+                    <p>20% Discount for take away</p>
+                    <button class="btn">Order Now</button>
+                    <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+                </div>
+            </section>
+            <!-- banner section ends here -->
+
+            <!-- about section starts here -->
+            <section id="about-us">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="about-us-contents">
+                            <h3>About <span>Us</span></h3>
+                            <p>
+                                "Welcome to the American Cuisine Restaurant, where we bring the heart of America to your
+                                plate. Our restaurant is a celebration of diverse and rich culinary traditions from all
+                                across the United States. From the sizzling steaks of Texas to the fresh seafood of
+                                Maine, our menu is a journey through the flavors that define American cuisine. Our chefs
+                                use only the finest locally-sourced ingredients to create dishes that honor traditional
+                                recipes while adding a contemporary twist. At American Cuisine Restaurant, we believe in
+                                providing not just a meal, but a memorable dining experience. So, come join us and taste
+                                the spirit of America!" 😊</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about section ends here -->
+
+            <!-- food menu section starts here -->
+            <section id="menu-section">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 w-100">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./image/delicious-meat-burger-wooden-board.jpg" alt="">
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-name">Food Name:Meat burger wooden board</h3>
+                                <p>Item No:101</p>
+                                <p>Price:4$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- food menu section ends here -->
+
+            <!-- contact section starts here -->
+            <section id="contact">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03599286225!2d-74.30931915280787!3d40.6975399765283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1704968153960!5m2!1sen!2sbd"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-details">
+                            <h3>Contact Details</h3>
+                            <div>
+                                <h5>American Cuisine Restaurant</h5>
+                                <address>
+                                    New York States
+                                    Road No 192D
+                                </address>
+                            </div>
+                            <div>
+                                <h5>Cell Number</h5>
+                                <p>+989877753</p>
+                            </div>
+                            <div>
+                                <h5>Opening Hours</h5>
+                                <p>24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact section ends here -->
+
+
+
+        </main>
+
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>&copy;All rights reserved by American Cuisine Restaurant</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-menus">
+                        <a href="#"><i class="icon-style fas fa-arrow-up"> </i> </a>
+                        <a href="#"><i class="icon-style fab fa-facebook-f"> </i> </a>
+                        <a href="#"><i class="icon-style fab fa-youtube"> </i> </a>
+                        <a href="#"><i class="icon-style fab fa-twitter"> </i> </a>
+                        <a href="#"><i class="icon-style fab fa-instagram"> </i> </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+        integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+
+</html>
